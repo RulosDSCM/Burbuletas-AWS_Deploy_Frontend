@@ -11,8 +11,8 @@ ENV PATH /usr/src/app/node_modules/.bin:$PATH
 COPY package.json /usr/src/app/package.json
 RUN npm install react-scripts@5.0.1 -g
 COPY . /usr/src/app
-RUN npm install
-RUN npm run build
+RUN npm install --silent
+RUN npm run build --silent
 
 # production environment
 FROM nginx:1.20.2-alpine
