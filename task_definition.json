@@ -59,7 +59,7 @@
   },
   "requiresCompatibilities": ["EC2"],
   "cpu": "256",
-  "memory": "1024",
+  "memory": "512",
   "registeredAt": "2022-05-22T07:21:34.825Z",
   "registeredBy": "arn:aws:iam::051198162897:root",
   "tags": [
